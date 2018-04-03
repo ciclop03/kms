@@ -1,4 +1,3 @@
-
 #include <iostream>
 using namespace std;
 //Primer ejercicio:
@@ -6,7 +5,7 @@ using namespace std;
 //	a una persona mayor o menor de edad.
 int main(int argc, char *argv[]) {
 	
-	int edad;
+/*	int edad;
 	cout << "introduzca su edad:";
 	cin >> edad;
 	
@@ -132,7 +131,7 @@ int main(int argc, char *argv[]) {
 	cout << abigail <<"\t,"<< balrog << "\t," << cammy << "\t," << deejay << "\t," << ed << ".";
 //5 digitos palindromo
 	
-	int dhalsim,mika,laura,birdie,ab,de,vega;
+	*/int dhalsim,mika,laura,birdie,ab,de,vega;
 	cout << "\ningrese un numero de 05 digitos:";
 	cin >> dhalsim;
 	
@@ -149,11 +148,16 @@ int main(int argc, char *argv[]) {
 	//DE
 	//dhalsim ahora es de 3 digitos
 	// hay que quitarle el primero
-	
+	// e invertirlos
+	int e, d;
 	birdie = dhalsim / 100;
 	dhalsim = dhalsim - birdie * 100;
 	
-	de = dhalsim;
+	d = dhalsim /10;
+	dhalsim = dhalsim - d * 10;
+	
+	e = dhalsim *10; 
+	de = d + e;
 	
 	//el "if"
 	if (ab == de) {
@@ -209,7 +213,7 @@ int main(int argc, char *argv[]) {
 	cout << "introduzca un numero:";
 	cin >> n;
 	l=n;
-	o=1
+	o=1;
 	if (n == 0){
 		cout << "1";
 	}
@@ -217,7 +221,7 @@ int main(int argc, char *argv[]) {
 	for (int i=1;i<n;i++) {
 		/*n = n * n-1
 		n = n - 2*/
-		o = o * i
+		o = o * i;
 		cout << "la factorial de l es igual a " <<0<<".";
 		
 	}
