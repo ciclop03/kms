@@ -5,7 +5,7 @@ using namespace std;
 //	a una persona mayor o menor de edad.
 int main(int argc, char *argv[]) {
 	
-/*	int edad;
+	int edad;
 	cout << "introduzca su edad:";
 	cin >> edad;
 	
@@ -131,7 +131,7 @@ int main(int argc, char *argv[]) {
 	cout << abigail <<"\t,"<< balrog << "\t," << cammy << "\t," << deejay << "\t," << ed << ".";
 //5 digitos palindromo
 	
-	*/int dhalsim,mika,laura,birdie,ab,de,vega;
+	int dhalsim,mika,laura,birdie,ab,de,vega;
 	cout << "\ningrese un numero de 05 digitos:";
 	cin >> dhalsim;
 	
@@ -195,36 +195,65 @@ int main(int argc, char *argv[]) {
 	
 // fibonacci
 	
-/*	int oldzeku,youngzeku,alex,akuma;
-	cou << "introduzca el numero de caraceres fibonacci que desee imprimir:";
-	cin >> oldzeku;
-	yougzeku = 0; //operador fibonacci
-	akuma = 0
-	alex = 0; // contador
-	
-	for (int i=0;i<oldzeku;i++) {
-		
-		
-	}*/
+	int oldzeku,youngzeku,alex,akuma;
 	
 // factorial
 	
-	int n,l,o;
+	/*int n,l,o,ss;
 	cout << "introduzca un numero:";
 	cin >> n;
-	l=n;
+
 	o=1;
+	ss = 1
 	if (n == 0){
 		cout << "1";
 	}
 	// se cambia 1=0 por 1=1, ya que toda operacion daria 0.
-	for (int i=1;i<n;i++) {
-		/*n = n * n-1
-		n = n - 2*/
-		o = o * i;
-		cout << "la factorial de l es igual a " <<0<<".";
+	while (ss <= n) {
+		
+		l = ss * (ss + 1);
+		
+		ss += 2
+		
+		cout << "la factorial de l es igual a " << o <<".";
+		*/
+	int n,l,o;
+	n = 1;
+	l = 1;
+	
+	cout << "ingrese un número:";
+	cin >> o;
+	
+	while (n <= o) {
+		l = l * n;
+		n += 1;
+	
+	}
+	cout << "la factorial de su numero es " << l;
+	
+//fibonacci
+	
+	cout << "ingrese el numero de suceciones fibonacci que desee imprimir: ";
+	int omc;	
+	cin >> omc;	
+	int nna=0,vsd=1,atq=2,sfv;
+	
+	// hay que imprimir estos dos antes.
+	
+	cout << nna <<" "<< vsd;
+	
+	// ahora el while
+	
+	while (atq < omc) {
+
+		atq++;
+		sfv = nna + vsd;
+		cout << "," <<sfv;
+		nna = vsd;
+		vsd = sfv;
 		
 	}
+	
 
 	return 0;
 }
