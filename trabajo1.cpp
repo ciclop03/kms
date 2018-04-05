@@ -254,6 +254,25 @@ int main(int argc, char *argv[]) {
 		
 	}
 	
+	// el mayor de 3
+	int aa,bb,cc;
+	cout << "ingrese 03 numeros:";
+	cin >> aa;
+	cin >> bb;
+	cin >> cc;
+	if (aa > bb and aa > cc) {
+		cout << a << " es el mayor";
+		
+	} else {
+		if (bb > cc ) {
+			cout << b << " es el mayor";
+			
+		} else {
+			cout << c << " es el mayor";
+			
+		}
+		
+	}
 
 	return 0;
 }
