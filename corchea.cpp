@@ -1,4 +1,5 @@
 #include <iostream>
+
 using namespace std;
 
 void copiardeTaS(int t[], int s[], int lents){ //deben ser del mismo tamaño
